@@ -7,5 +7,10 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'test' do
+    
+# Networking Framewords
     pod 'Alamofire', '~> 3.4'
+    pod 'Alamofire-SwiftyJSON'
+    pod 'AlamofireImage', '~> 2.0'
+
 end
